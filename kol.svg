@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<svg width="640" height="480.00000000000006" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_34">
+   <ellipse cx="354.000001" cy="165" fill="#110505" id="svg_1" rx="26.500001" ry="23.5" stroke="#000000" stroke-width="5"/>
+   <ellipse cx="332.5" cy="155.5" fill="#0a0101" id="svg_4" rx="9" ry="8" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+   <ellipse cx="374.5" cy="153.5" fill="#0c0101" id="svg_7" rx="9" ry="8" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+   <ellipse cx="353.999998" cy="228.500002" fill="#070303" id="svg_8" rx="39.499998" ry="52.000002" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+   <line fill="none" id="svg_9" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" x1="317.5" x2="250.5" y1="208.5" y2="237.5"/>
+   <line fill="none" id="svg_12" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(53.1301 421.5 223.5)" x1="457.400001" x2="385.6" y1="205.8" y2="241.199999"/>
+   <line fill="none" id="svg_13" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(71.2502 253 194)" x1="214.5" x2="291.5" y1="178.5" y2="209.5"/>
+   <line fill="none" id="svg_14" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(71.2502 460.5 202.5)" x1="422" x2="499" y1="187" y2="218"/>
+   <line fill="none" id="svg_16" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" x1="319" x2="252" y1="248.969559" y2="277.969558"/>
+   <line fill="none" id="svg_15" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(85.5316 240.5 315.47)" x1="202" x2="279" y1="299.969559" y2="330.969559"/>
+   <line fill="none" id="svg_18" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(44.6685 426.476 260.954)" x1="459.976471" x2="392.976471" y1="246.454506" y2="275.454505"/>
+   <line fill="none" id="svg_17" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(63.8927 463.476 313.954)" x1="424.976471" x2="501.976471" y1="298.454506" y2="329.454506"/>
+   <line fill="none" id="svg_22" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(166.798 305.977 284.954)" x1="331.976471" x2="279.976471" y1="272.454505" y2="297.454504"/>
+   <line fill="none" id="svg_21" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(82.1844 274.476 342.955)" x1="235.976471" x2="312.976471" y1="327.454506" y2="358.454506"/>
+   <line fill="none" id="svg_26" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(61.6108 402.882 281.371)" x1="428.485274" x2="377.278648" y1="266.871283" y2="295.871283"/>
+   <line fill="none" id="svg_25" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(63.8927 429.498 335.923)" x1="390.997986" x2="467.997986" y1="320.422691" y2="351.422691"/>
+   <ellipse cx="254.5" cy="152" fill="#0a0101" id="svg_27" rx="3" ry="4.5" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+   <ellipse cx="228.5" cy="354.5" fill="#0a0101" id="svg_29" rx="3" ry="4.5" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+   <ellipse cx="265.5" cy="383.5" fill="#0a0101" id="svg_30" rx="3" ry="4.5" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+   <ellipse cx="434.5" cy="378.5" fill="#0a0101" id="svg_31" rx="3" ry="4.5" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+   <ellipse cx="468.5" cy="358.5" fill="#0a0101" id="svg_32" rx="3" ry="4.5" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+   <ellipse cx="463.5" cy="156.5" fill="#0a0101" id="svg_33" rx="3" ry="4.5" stroke="#070000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+  </g>
+  <rect fill="#000000" fill-opacity="0" height="399.000015" id="svg_2" stroke="#000000" stroke-width="5" width="555.000027" x="75.5" y="46.5"/>
+ </g>
+</svg>

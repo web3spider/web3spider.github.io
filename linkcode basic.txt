@@ -1,0 +1,415 @@
+ <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+        <input name="sitesearch" type="hidden" value="">
+        <input autocomplete="on" class="form-control search" name="q" placeholder="Search in google" required="required"  type="text">
+        <button class="button" type="submit">Search</button>
+        </form>
+
+
+        html
+
+        <div class="movie">
+      <a class="movielinksab"> <i class="fas fa-film"></i> </a>
+      <div class="movielinks">
+        <a href="https://1337x.to/home/" target="_blank">1337x</a>
+        <a href="https://torrentz2.eu/" target="_blank">torrentz2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+
+    class
+    
+    .movielinksab {
+      color: rgb(15, 15, 15);
+      padding: 16px;
+      font-size: 160%;
+      border: 2px solid rgb(117, 110, 110);
+      border-radius: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+    }
+    
+    .movie {
+      position: relative;
+      display: inline-block;
+      padding-top: 70%;
+    }
+    
+    .movielinks {
+      display: none;
+      position:absolute;
+      background-color:#252323;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 2;
+    }
+    
+    .movielinks a {
+      color: rgb(226, 171, 21);
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .movielinks a:hover {background-color: #ddd;}
+    
+    .movie:hover .movielinks {display: block;}
+    
+    .movie:hover .movielinksab {background-color: rgb(117, 110, 110);}
+
+
+
+
+
+
+    html
+
+
+
+       <div class="dropdown">
+      <button class="dropbtn">search</button>
+      <div class="dropdown-content">
+        <a href="#google1"><i class="fab fa-google"></i> google</a>
+        <a href="#bing" target="_blank"><i class="fab fa-bimobject"></i> bing</a>
+        <a href="#yahoo" target="_blank"><i class="fab fa-yahoo"></i> yahoo!</a>
+        <a href="#duckduckgo" target="_blank"><i class="fab fa-drupal"></i> duckduckgo</a>
+      </div>
+
+
+safe
+class
+
+body{margin: 0px;
+padding: 0px;
+}
+
+
+h1 a {color: rgb(0, 17, 255);
+    text-decoration: none;
+
+}
+h1 a:hover{color: aqua;}
+h1{text-align: center;
+   }
+header { background: rgba(102, 51, 153, 0.274);
+margin: 0px;
+padding: 1%;
+}
+.fa-sitemap{
+  font-size: 250%;
+  color: rgb(32, 31, 32);
+}
+/*search*/
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding-left: 500%;
+  padding-right: 500%;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 5px;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 20%;
+  margin-left: 30%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: 400%;
+  margin-right: 400%;
+  text-align: center;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/*google*/
+  form.searchform {position: relative;
+  padding-left:5%;
+  padding-top:100% ;
+  padding-bottom: 5%;
+  }
+  .googlep{font-family: 'Courier New', Courier, monospace;
+  color: #043609;
+  }
+
+  /*bing*/
+  .searchform2{position: relative;
+    padding-left:5%;
+    padding-bottom: 5%;
+    }
+    /*yahoo!*/.searchform2{position: relative;
+    padding-left:5%;
+    padding-bottom: 5%;
+    }
+    .Searchnow {position: absolute;
+      padding-top: 90%;
+      padding-left: 5%;
+      font-size: 170%;
+      color: rgb(23, 157, 197);
+      text-decoration: underline;
+  
+    }
+    /*icons movies*/
+    .btn {
+      border: 2px solid black;
+      border-radius: 5px;
+      background-color: white;
+      color: black;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    /* Green */
+    .success {
+      border-color: #4CAF50;
+      color: green;
+      font-size: 16px;
+      margin: 0px;
+    }
+    
+    .success:hover {
+      background-color: #4CAF50;
+      color: white;
+    }
+    
+    /* Blue */
+    .info {
+      border-color: #2196F3;
+      color: dodgerblue
+    }
+    
+    .info:hover {
+      background: #2196F3;
+      color: white;
+    }
+    
+    /* Orange */
+    .warning {
+      border-color: #ff9800;
+      color: orange;
+    }
+    
+    .warning:hover {
+      background: #ff9800;
+      color: white;
+    }
+    
+    /* Red */
+    .danger {
+      border-color: #f44336;
+      color: red
+    }
+    
+    .danger:hover {
+      background: #f44336;
+      color: white;
+    }
+    
+    /* Gray */
+    .default {
+      border-color: #e7e7e7;
+      color: black;
+    }
+    
+    .default:hover {
+      background: #e7e7e7;
+    }
+    .success{
+    position: relative;
+    
+    }
+
+    /*movcon*/
+ .sucdown {
+  position: relative;
+  display: inline-block;
+}
+
+.movcon {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.movcon a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.movcon a:hover {background-color: #ddd;}
+
+.sucdown:hover .movcon {display: block;}
+
+    @media only screen and (max-width: 1200px) {
+      body {margin: 0%;
+        background-color: lightblue;
+      
+      }
+      .dropdown {  position: relative;
+        display: inline-block;
+        margin-top: 5%;
+        margin-left: 5%;
+
+      }
+      .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding-left: 300%;
+        padding-right: 300%;
+        font-size: 16px;
+        border: 2px solid black;
+        border-radius: 5px;
+      
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-left: 200%;
+        margin-right: 200%;
+        text-align: center;
+      }
+
+    }
+    .gain{
+      margin-inline-start: 30%;
+      margin-top: 10%;
+
+    }
+
+
+    html
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>linkcode</title>
+<meta charset="utf-8">
+<link rel="stylesheet" media="screen and (max-width: 1200px)" href="smallscreen.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="linkcode style.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    <header><h1><a href="#linkcode.com home" title="linkcode.com home"><i class="fas fa-sitemap"></i> linkcode.com</a></h1></header>
+    
+    
+    <div>
+
+    <div class="dropdown">
+            <button class="dropbtn">search</button>
+            <div class="dropdown-content">
+              <a href="#google1"><i class="fab fa-google"></i> google</a>
+              <a href="#bing" target="_blank"><i class="fab fa-bimobject"></i> bing</a>
+              <a href="#yahoo" target="_blank"><i class="fab fa-yahoo"></i> yahoo!</a>
+              <a href="#duckduckgo" target="_blank"><i class="fab fa-drupal"></i> duckduckgo</a>
+            </div>
+            </div>
+          </div>
+          <div class="gain">
+          <div class="sucdown">
+              <button class="btn success">Success</button>
+              <div class="movcon">
+                    <a href="#" target="_blank">link1</a>
+                    <a href="#" target="_blank">link2</a>
+                    <a href="#" target="_blank">link3</a>
+                    <a href="#" target="_blank">link4</a>
+                  </div>
+                  </div>
+              <button class="btn info">Info</button>
+              <button class="btn warning">Warning</button>
+              <button class="btn danger">Danger</button>
+              <button class="btn default">Default</button>
+         
+            </div>
+         
+              <p class="Searchnow">Search now </p>
+              
+          <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank" >
+            <p class="googlep">Search with Google</p>
+            <i class="fab fa-google"></i>
+            <input name="sitesearch" type="hidden" value="">
+            <input autocomplete="on" class="form-control search" name="q" placeholder="Search in google" required="required"  type="text">
+            <button id="google1" class="button" type="submit">Search</button>
+            </form>
+          
+          
+            <form action="https://www.bing.com/search" class="searchform2" method="get" name="searchform" target="_blank" id="bing">
+              <p class="googlep">Search with Bing</p>
+              <i class="fab fa-bimobject"></i>
+              <input name="sitesearch" type="hidden" value="">
+              <input autocomplete="on" class="form-control search" name="q" placeholder="Search in bing" required="required"  type="text">
+              <button id="bing" class="button" type="submit">Search</button>
+              </form>
+            
+              
+              <form action="https://in.yahoo.com/search" class="searchform2" method="get" name="searchform" target="_blank" >
+                <p class="googlep">Search with yahoo!</p>
+                <i class="fab fa-yahoo"></i>
+                <input name="sitesearch" type="hidden" value="">
+                <input autocomplete="on" class="form-control search" name="q" placeholder="Search in yahoo!" required="required"  type="text">
+                <button id="yahoo"class="button" type="submit">Search</button>
+                </form>
+              
+                <form action="https://duckduckgo.com/search" class="searchform2" method="get" name="searchform" target="_blank" >
+                  <p class="googlep">Search with duckduckgo</p>
+                  <i class="fab fa-drupal"></i>                  <input name="sitesearch" type="hidden" value="">
+                  <input autocomplete="on" class="form-control search" name="q" placeholder="Search in duckduckgo" required="required"  type="text">
+                  <button id="duckduckgo"class="button" type="submit">Search</button>
+                  </form>
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

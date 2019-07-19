@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web3spider-Games</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="ico.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="ico.ico">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="ico.ico">
+<link rel="apple-touch-icon" sizes="72x72" href="ico.ico">
+<link rel="apple-touch-icon" sizes="114x114" href="ico.ico">
+<link rel="apple-touch-icon" sizes="120x120" href="ico.ico">
+<link rel="apple-touch-icon" sizes="144x144" href="ico.ico">
+<link rel="apple-touch-icon" sizes="152x152" href="ico.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href=" game css.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<span class="h1"><h1>Web3spider-Games</h1></span>
+
+<p class="guess">Guess game</p>
+<p class="guess-info">In this game you have to guess some numbers.OK!</p>
+<div class="bndm">
+<SCRIPT LANGUAGE="JavaScript">
+       
+        // numberguess is by Lancer - written 4 Jan 1999
+        // lancer@kp.planet.gen.nz
+        
+        var guessme=Math.round(Math.random()*(99)+1);
+        var speech='Guess my number (from 1 to 100)';
+        
+        function process(mystery) {
+        var guess=document.forms.guessquiz.guess.value;
+        var speech='"'+guess+ '" does not make sense to me.';
+        document.forms.guessquiz.guess.value='';
+        
+        if (guess==mystery)
+        {
+        document.forms.guessquiz.prompt.value='Congratulations! '+mystery+' is correct!';
+        alert ('Well done - the mystery number is '+mystery+'! \n\nPress this button to reload the page for another game.');
+        speech='';
+        document.location=document.location;
+        }
+        
+        if (mystery<guess)
+        {
+        speech='Less than '+ guess;
+        }
+        
+        if (mystery>guess)
+        {
+        speech='Greater than '+ guess;
+        }
+        
+        if (guess=='')
+        {
+        speech='You didn\'t guess anything!'
+        }
+        
+        document.forms.guessquiz.prompt.value=speech; document.forms.guessquiz.guess.focus();
+        
+        }
+        
+        // end hide -->
+        </SCRIPT>
+        
+        <FORM onSubmit="" NAME="guessquiz">
+        <CENTER></CENTER>
+        <TABLE ALIGN="CENTER" BGCOLOR="#888888" BORDER="3" CELLPADDING="5">
+        <TR>
+        <TD BGCOLOR="#004080">
+        <FONT COLOR="#ffffff" FACE="Arial"><B>NUMBER ? (1 - 100)</B></FONT>
+        </TD>
+        </TR>
+        <TR>
+        <TD>
+        <CENTER>
+        <INPUT TYPE="text" NAME="prompt" SIZE="31" MAXLENGTH="40" VALUE="Guess my number (from 1 to 100)"><BR>
+        <INPUT TYPE="text" NAME="guess" SIZE="3" MAXLENGTH="3" VALUE="">
+        <INPUT TYPE="button" VALUE="Guess" onClick='process(guessme)'>
+        </CENTER>
+        </TD>
+        </TR>
+        </TABLE>
+        </CENTER>
+        </FORM>
+    </div>
+</body>
+</html>
