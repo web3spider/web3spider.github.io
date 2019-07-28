@@ -1455,11 +1455,9 @@ imgw3 {vertical-align: middle;}
   background-color: #717171;
 }
 .ope-i0mg{
-opacity: 0.8;
+filter:brightness(130%);
 }
-.ope-i0mg:hover{
-  opacity: 8;
-  }
+
 /* Fading animation */
 .fadew3 {
   -webkit-animation-name: fade;
