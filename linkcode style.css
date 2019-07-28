@@ -306,12 +306,25 @@ transition: .1s;
         background-color: lightblue;
       
       }
+.hello-spider {
+     width: 20%;
+     height: 20%;
+     filter:brightness(-5000%);
+    }
+	    .pob1{
+        left: .1%;
+        right: 2%;
+
+      }
+	    
       p.Searchnow {
        display: none;
       } 
+	    
 .top-btn{position: fixed;
  
 }
+	    
 .pop-green{
   display: none;
 }
@@ -513,7 +526,7 @@ border-radius: 50%;
           border: 2px solid black;
           border-radius: 5px;
           transition: .3s;
-          right: 20%;
+          right: 10%;
       }
     
       
