@@ -257,6 +257,8 @@ transition: .1s;
     border: 2px solid black;
     border-radius: 5px;
     transition: .3s;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .movcon a {
