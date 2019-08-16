@@ -568,7 +568,8 @@ border-radius: 50%;
   font-size: 300%;
 }
 
-p.Searchnow {position: absolute;
+p.Searchnow {display: none;
+	position: absolute;
   top: 290%;
   padding-left: 5%;
   font-size: 400%;
