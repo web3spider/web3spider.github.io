@@ -22,378 +22,191 @@
 <link rel="apple-touch-icon" sizes="152x152" href="ico.ico">
 <link rel="stylesheet" href="linkcode style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 </head>
-<body id="text" >
+<body>
     <header>
-     <!-- Trigger/Open The Modal -->
-<button id="myBtn3" class="pop-green">Theme and more..</button>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
+    <img class="img-responsive img-fluid mx-auto d-block" src="logo.svg" alt="web3spider-logo v.2.1.1.2" width="200" height="150" >
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close close-and">&times;</span>
-      <h2>Theme and more..</h2>
+    <button type="button" class="btn more-menu" title="More-Menu" onclick="openNav()"><i class="fas fa-bars fabars"></i></button>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
     </div>
-    <div class="modal-body">
-        <p>Theme switcher</p>
-        <label class="switch" title="Change the theme">
-            <input type="checkbox" id="myCheck"  onclick="myFunction5(),alert('Hello Can We change the theme!')">
-            <span class="slider round"></span>
-          </label>
-          <div class="founder-section">
-              <a href="founder.html" target="_blanck">
-              <img src="rphoto.jpg" width="50" height="50" class="rphoto" alt="founder of web3spider" title="founder">
-            </a>
-             </div>
-      <p>Some text in the Modal Body</p>
-      <p>Some other text...</p>
-      <div style="padding:20px">
-          
-        <button onclick="on()"  class="time si-ti">Time</button>
-      </div>
-      <label for="colorWell">theme:</label>
-              <input type="color" value="#ff0000" id="colorWell" class="inpu-cours">
-    </div>
-    
-    <div class="modal-footer">
-      <h3>Modal Footer</h3>
-    </div>
-  </div>
-
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn3");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
-      
-      
-      
-      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-      <script>
-      
-      $(window).on("beforeunload", function() {
-          return "Are you sure? You didn't finish the form!";
-      });
-      
-      $(document).ready(function() {
-          $("#myForm").on("submit", function(e) {
-              //check form to make sure it is kosher
-              //remove the ev
-              $(window).off("beforeunload");
-              return true;
-          });
-      });
-      </script>
-  
-        <div class="sucdown-left">
-            <div class="movcon-left">
-              <a href="https://thepiratebayz.org/" target="_blank">the piratebay</a>
-              <a href="https://1337xto.to/" target="_blank">1337x</a>
-              <a href="https://proxtpb.art/" target="_blank">the piratebay india</a>
-              <a href="https://www.voot.com/" target="_blank">voot</a>
-              <a href="https://www.hotstar.com/" target="_blank">hotstar</a>
-              <a href="https://www.sonyliv.com/" target="_blank">sonyliv</a>
-              <a href="https://chrome.google.com/webstore/detail/hotstar-match-helper/bcajjnpfpfodjpglldonkjjfcnhpeokf/related" target="_blank">free icc extention </a>
-              <a href="https://www.hotstar.com/" target="_blank">icc extention link</a>
-            </div>
-          <button class="btn pob1"><i class="fas fa-user-secret">POB</i></button>
-     </div>
-    
-        <div class="vbar">
-        <div class="vbar-contener">
-            <a href="https://www.qrcode-monkey.com/" target="_blank" title="Make QR">Make QR</a>
-             <a href="https://www.photopea.com/" target="_blank" title="Photoshop">Photoshop</a>
-            <a href="https://www.iloveimg.com/" target="_blank" title="Edit photo">Edit photo</a>
-            <a href="https://www.kapwing.com/studio/editor" target="_blank" title="Edit video">Edit video</a>
-            <a href="https://www.launchaco.com/" target="_blank" title="Make LOGO">Make LOGO</a>
-            <a href="https://soundcloud.com/" target="_blank" title="Listen Music">Listen Music</a>
-            <a href="https://www.cryptonator.com/rates/" target="_blank" title="Crypto Curruncy">Crypto Curruncy</a>
-            <a href="https://radio.garden" target="_blank" title="Radio">Radio</a>
-            <a href="https://www.khanacademy.org/" target="_blank" title="Education">Education</a>
-            <a href="qutio html.html" target="_blank" title="FAQS">FAQS</a>
-            <a href="https://www.youtube.com/" target="_blank" title="Youtube">Youtube</a>
-            <a href="https://www.accuweather.com" target="_blank" title="Weather">Weather</a>
-            <a href="https://www.barchart.com/stocks" target="_blank" title="Stock Market">Stock Market</a>
-            <a href="https://internet-map.net/home" target="_blank" title="The internet map">The internet map<img src="mapweb.png" alt="the internet map" width="26%" height="26%"style="padding-left: 4.0%;" title="The internet map"></a>
-            <a href="donnet html.html" target="_blank" title="Donate">Donate</a>
-            <a href="http://www.friv-2017.com/" target="_blank" title="Games">Games</a>
-            <a href="https://www.bbc.com/news" target="_blank" title="News">News</a>
-            <a href="https://unsplash.com/" target="_blank" title="Best Photos">Best Photos</a>
-            <a href="https://www.linkcollider.com/page/register?r=310389&aff=1" target="_blank" title="Linkcollider seo tools">Linkcollider seo tools</a>
-          </div>
-        <button class="btnvbar"><i class="fas fa-bars"></i></button>
-      </div>
-      <h1><a href="#web3spider" title="web3spider home" class="hop"><img src="spider icon 1.png" alt="web3spider" width="150" height="150" class="hello-spider">web3spider</a></h1>
-      <div id="overlay" onclick="off()"><canvas id="canvas" width="400" height="400" class="tibm"
-        style="background-color:#333;border-radius: 50px; position: relative; left: 35%;">
-        </canvas></div>
-        
-       
-        
-        <script>
-        function on() {
-          document.getElementById("overlay").style.display = "block";
-        }
-        
-        function off() {
-          document.getElementById("overlay").style.display = "none";
-        }
-        </script>
-        
-        
-        
-        
-        <script>
-        var canvas = document.getElementById("canvas");
-        var ctx = canvas.getContext("2d");
-        var radius = canvas.height / 2;
-        ctx.translate(radius, radius);
-        radius = radius * 0.90
-        setInterval(drawClock, 1000);
-        
-        function drawClock() {
-          drawFace(ctx, radius);
-          drawNumbers(ctx, radius);
-          drawTime(ctx, radius);
-        }
-        
-        function drawFace(ctx, radius) {
-          var grad;
-          ctx.beginPath();
-          ctx.arc(0, 0, radius, 0, 2*Math.PI);
-          ctx.fillStyle = 'white';
-          ctx.fill();
-          grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
-          grad.addColorStop(0, '#333');
-          grad.addColorStop(0.5, 'white');
-          grad.addColorStop(1, '#333');
-          ctx.strokeStyle = grad;
-          ctx.lineWidth = radius*0.1;
-          ctx.stroke();
-          ctx.beginPath();
-          ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
-          ctx.fillStyle = '#333';
-          ctx.fill();
-        }
-        
-        function drawNumbers(ctx, radius) {
-          var ang;
-          var num;
-          ctx.font = radius*0.15 + "px arial";
-          ctx.textBaseline="middle";
-          ctx.textAlign="center";
-          for(num = 1; num < 13; num++){
-            ang = num * Math.PI / 6;
-            ctx.rotate(ang);
-            ctx.translate(0, -radius*0.85);
-            ctx.rotate(-ang);
-            ctx.fillText(num.toString(), 0, 0);
-            ctx.rotate(ang);
-            ctx.translate(0, radius*0.85);
-            ctx.rotate(-ang);
-          }
-        }
-        
-        function drawTime(ctx, radius){
-            var now = new Date();
-            var hour = now.getHours();
-            var minute = now.getMinutes();
-            var second = now.getSeconds();
-            //hour
-            hour=hour%12;
-            hour=(hour*Math.PI/6)+
-            (minute*Math.PI/(6*60))+
-            (second*Math.PI/(360*60));
-            drawHand(ctx, hour, radius*0.5, radius*0.07);
-            //minute
-            minute=(minute*Math.PI/30)+(second*Math.PI/(30*60));
-            drawHand(ctx, minute, radius*0.8, radius*0.07);
-            // second
-            second=(second*Math.PI/30);
-            drawHand(ctx, second, radius*0.9, radius*0.02);
-        }
-        
-        function drawHand(ctx, pos, length, width) {
-            ctx.beginPath();
-            ctx.lineWidth = width;
-            ctx.lineCap = "round";
-            ctx.moveTo(0,0);
-            ctx.rotate(pos);
-            ctx.lineTo(0, -length);
-            ctx.stroke();
-            ctx.rotate(-pos);
-        }
-        </script>
-
-    </header>
-  
-
     <script>
-        function myFunction5() {
-          var checkBox = document.getElementById("myCheck");
-          var text = document.getElementById("text");
-          if (checkBox.checked == true){
-            text.style.background = "rgb(48, 65, 64)";
-            
-          } else {
-             text.style.display = "block";
-             text.style.background = "";
-
-          }
-        }
-        </script>
-        
-        <script>
-        var colorWell;
-        var defaultColor = "#0000ff";
-        
-        window.addEventListener("load", startup, false);
-        function startup() {
-          colorWell = document.querySelector("#colorWell");
-          colorWell.value = defaultColor;
-          colorWell.addEventListener("input", updateFirst, false);
-          colorWell.addEventListener("change", updateAll, false);
-          colorWell.select();
-        }
-        function updateFirst(event) {
-          var body = document.querySelector("body");
-        
-          if (body) {
-            body.style.background = event.target.value;
-            
-          }
-        }function updateAll(event) {
-          document.querySelectorAll("body").forEach(function(body) {
-            body.style.color = event.target.value;
-          });
-        }
-        
-         </script>
-
-
-
-  
-
-
-
-
-
-
-              
-<script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-      } else {
-        document.getElementById("myBtn").style.display = "none";
-      }
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
     }
     
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
     }
     </script>
-<button onclick="topFunction()" id="myBtn" title="Go to top" class="top-btn">Top</button>
-    <div>
+    <button type="button" class="btn float-right info-bar btn-info btn-sm" data-toggle="collapse" data-target="#demo"><i class="fas fa-info-circle "></i></button>
+    <div id="demo" class="collapse float-right">
+     <small> <p id="demoDayName" class="font-class"></p>
+      <p id="demowidth"></p>
+    </small>
+      <script>
+        document.getElementById("demowidth").innerHTML = 
+        "W- " + screen.width +" H-" + screen.height;
 
-      
+  var d = new Date();
+  var weekday = new Array(7);
+  weekday[0] = "Sunday";
+  weekday[1] = "Monday";
+  weekday[2] = "Tuesday";
+  weekday[3] = "Wednesday";
+  weekday[4] = "Thursday";
+  weekday[5] = "Friday";
+  weekday[6] = "Saturday";
 
-    <div class="dropdown">
-            <button class="dropbtn"><i class="fas fa-search"></i><b class="icsearch">search</b></button>
-            <div class="dropdown-content">
-              <a href="#google1" class="gogo"><i class="fab fa-google"></i> google</a>
-              <a href="#bing" target="_blank" class="gobing"><i class="fab fa-bimobject"></i> bing</a>
-              <a href="#yahoo" target="_blank" class="goyahoo"><i class="fab fa-yahoo"></i> yahoo!</a>
-              <a href="#duckduckgo" target="_blank" class="goyahoo"><i class="fab fa-drupal"></i> duckduckgo</a>
-              <a href="anonymoussearch.com_anonymous search engine_saving privacy_anonymoussearch_Search anonymously.html" target="_blank" class="goyahoo"><i class="fas fa-user-secret"></i> anonymous</a>
-            </div>
-            </div>
+  var n = weekday[d.getDay()];
+  document.getElementById("demoDayName").innerHTML =n;
+</script>
+    </div>  
+  
+  </header>
+    <div class="container mt-3">
+      <br>
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#google"><i class="fab fa-google"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#Bing">Bing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#Duckduckgo">Duckduckgo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#Yandex">Yandex</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#x">1337x</a>
+        </li>
+      </ul>
+    
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div id="google" class="container tab-pane active"><br>
+          <form action="https://www.google.com/search" method="get" target="_blank" >
+            <p>Search with Google</p>
+            <div class="form-group">
+            <input name="Web3spider-search" class="form-control" type="hidden" value="">
+            <input autocomplete="off" class="form-control" name="q" placeholder="Search in google" required="required"  type="text">
           </div>
-          
-          <div class="gain">
+            <button type="submit" class="btn btn-primary">Search</button>
+          </form>
+        </div>
+        <div id="Bing" class="container tab-pane fade"><br>
+          <form action="https://www.bing.com/search" method="get" target="_blank" >
+            <p>Search with Bing</p>
+            <div class="form-group">
+            <input name="Web3spider-search" class="form-control" type="hidden" value="">
+            <input autocomplete="off" class="form-control" name="q" placeholder="Search in Bing" required="required"  type="text">
+          </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+          </form>
+        </div>
+        <div id="Duckduckgo" class="container tab-pane fade"><br>
+          <form action="https://www.duckduckgo.com" method="get" target="_blank" >
+            <p>Search with Duckduckgo</p>
+            <div class="form-group">
+            <input name="Web3spider-search" class="form-control" type="hidden" value="">
+            <input autocomplete="off" class="form-control" name="q" placeholder="Search in Duckduckgo" required="required"  type="text">
+          </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+          </form>
+        </div>
+        <div id="Yandex" class="container tab-pane fade"><br>
+          <form action="https://www.Yandex.com/" method="get" target="_blank" >
+            <p>Search with Yandex</p>
+            <div class="form-group">
+            <input name="Web3spider-search" class="form-control" type="hidden" value="">
+            <input autocomplete="off" class="form-control" name="q" placeholder="Search in Yandex" required="required"  type="text">
+          </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+          </form>
+        </div>
+        <div id="x" class="container tab-pane fade"><br>
+          <form action="https://1337x.to/home/" method="get" target="_blank" >
+            <p>Search with 1337x</p>
+            <div class="form-group">
+            <input name="Web3spider-search" class="form-control" type="hidden" value="">
+            <input autocomplete="off" class="form-control" name="q" placeholder="Search in 1337x" required="required"  type="text">
+          </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div>  
+<p></p>
 
-      
-
-          <div class="sucdown">
-              <div class="movcon ">
-                
-                  <a href="https://torrentz2.eu/" target="_blank">torrentz2</a>
-                  <a href="https://1337x.to/home/" target="_blank">1337x</a>
-                  <a href="https://thepiratebay.org/" target="_blank">the piratebay</a>
-                  <a href="https://www.limetorrents.info/" target="_blank">limetorrents</a>
-                  <a href="https://torrents.io/" target="_blank">torrents.io</a>
-                  <a href="https://www.skytorrents.lol/" target="_blank">skytorrents</a>
-                  <a href="https://crackingpatching.com/" target="_blank">crackingpatching</a>
-                  <a href="https://zooqle.com/" target="_blank">zooqle</a>
-                  <a href="https://eztv.io/" target="_blank">eztv.io</a>
-                  <a href="https://www.downturk.net/" target="_blank">downturk</a>
-                  <a href="https://torrentgalaxy.org/" target="_blank">torrentgalaxy</a>
-                  <a href="http://cracksurl.com/" target="_blank">cracksurl</a>
-                  <a href="https://filepursuit.com/" target="_blank">filepursuit</a>
-                  <a href="https://www.elamigos-games.com/" target="_blank">elamigos-games</a>
-                  <a href="https://www.usenet-crawler.com/browse" target="_blank">usenet-crawler</a>
-                  <a href="https://glodls.to/home.php" target="_blank">glodls</a>
-                  <a href="https://www.piratecity.co/" target="_blank">piratecity</a>
-                  <a href="https://crohasit.net/" target="_blank">crohasit</a>
-                  <a href="https://480mkv.com/" target="_blank">480mkv</a>
-                  <a href="https://worldsrc.org/" target="_blank">worldsrc</a>
-                  <a href="https://mp3jams.net/" target="_blank">mp3jams</a>
-                  <a href="https://www.pluspremieres.nz/" target="_blank">pluspremieres</a>
-                  <a href="https://youtubemp3.rip/" target="_blank">youtubemp3</a>
-                  <a href="https://www.genyt.com/" target="_blank">Genyoutube</a>
-                  <a href="http://nipper.yt/" target="_blank">Nipper</a>
-                  <a href="https://www.apkmirror.com/developers/" target="_blank">apkmirror</a>
-                  <a href="https://getintopc.com/" target="_blank">getintopc</a>
-                  <a href="https://ewora.blogspot.com/" target="_blank">Ewora</a>
-                  <a href="https://snahp.it/" target="_blank">snahp</a>
-                  <a href="https://fileocean.to/" target="_blank">fileocean</a>
-                  <a href="https://9xbuddy.com/" target="_blank">9xbuddy</a>
-                  <a href="https://www.ddlvalley.me/" target="_blank">ddlvalley</a>
-                  <a href="https://psarips.org/" target="_blank">psarips</a>
-                  <a href="https://cmacapps.com/" target="_blank">cmacapps</a>
-                  
-
-                </div>
-                
-              <button class="btn success"><i class="fas fa-film"></i></button>
-            </div>
-            
-                  <div class="sucdown">
-                      <div class="movcon">
+    </div>
+<downs >
+  <div class="pcenter">
+  <div class="dropdown1">
+    <button class="dropbtn1 btn btn-primary"><i class="fas fa-cloud-download-alt awso-size"></i></button>
+    <div class="dropdown-content1 btn-primary scrollable">
+      <h5 class="dropdown-header text-white"> Download </h5>
+      <a href="https://torrentz2.eu/" target="_blank">torrentz2</a>
+      <a href="https://1337x.to/home/" target="_blank">1337x</a>
+      <a href="https://thepiratebay.org/" target="_blank">the piratebay</a>
+      <a href="https://www.limetorrents.info/" target="_blank">limetorrents</a>
+      <a href="https://torrents.io/" target="_blank">torrents.io</a>
+      <a href="https://www.skytorrents.lol/" target="_blank">skytorrents</a>
+      <a href="https://crackingpatching.com/" target="_blank">crackingpatching</a>
+      <a href="https://zooqle.com/" target="_blank">zooqle</a>
+      <a href="https://eztv.io/" target="_blank">eztv.io</a>
+      <a href="https://www.downturk.net/" target="_blank">downturk</a>
+      <a href="https://torrentgalaxy.org/" target="_blank">torrentgalaxy</a>
+      <a href="http://cracksurl.com/" target="_blank">cracksurl</a>
+      <a href="https://filepursuit.com/" target="_blank">filepursuit</a>
+      <a href="https://www.elamigos-games.com/" target="_blank">elamigos-games</a>
+      <a href="https://www.usenet-crawler.com/browse" target="_blank">usenet-crawler</a>
+      <a href="https://glodls.to/home.php" target="_blank">glodls</a>
+      <a href="https://www.piratecity.co/" target="_blank">piratecity</a>
+      <a href="https://crohasit.net/" target="_blank">crohasit</a>
+      <a href="https://480mkv.com/" target="_blank">480mkv</a>
+      <a href="https://worldsrc.org/" target="_blank">worldsrc</a>
+      <a href="https://mp3jams.net/" target="_blank">mp3jams</a>
+      <a href="https://www.pluspremieres.nz/" target="_blank">pluspremieres</a>
+      <a href="https://youtubemp3.rip/" target="_blank">youtubemp3</a>
+      <a href="https://www.genyt.com/" target="_blank">Genyoutube</a>
+      <a href="http://nipper.yt/" target="_blank">Nipper</a>
+      <a href="https://www.apkmirror.com/developers/" target="_blank">apkmirror</a>
+      <a href="https://getintopc.com/" target="_blank">getintopc</a>
+      <a href="https://ewora.blogspot.com/" target="_blank">Ewora</a>
+      <a href="https://snahp.it/" target="_blank">snahp</a>
+      <a href="https://fileocean.to/" target="_blank">fileocean</a>
+      <a href="https://9xbuddy.com/" target="_blank">9xbuddy</a>
+      <a href="https://www.ddlvalley.me/" target="_blank">ddlvalley</a>
+      <a href="https://psarips.org/" target="_blank">psarips</a>
+      <a href="https://cmacapps.com/" target="_blank">cmacapps</a>
+    </div>
+  </div>
+  <div class="dropdown1">
+    <button class="dropbtn1 btn btn-secondary"><i class="fas fa-code awso-size"></i></button>
+    <div class="dropdown-content1 btn-secondary scrollable">
+                          <h5 class="dropdown-header text-white"> Coding </h5>
                           <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
                           <a href="https://www.w3schools.in/" target="_blank">w3schools lang</a>
                           <a href="https://icons8.com/icons" target="_blank">icons8</a>
@@ -447,291 +260,119 @@ window.onclick = function(event) {
                           <a href="https://github.com/LisaDziuba/Awesome-Design-Tools" target="_blank">tools</a>
                           <a href="https://github.com/Kickball/awesome-selfhosted" target="_blank">selfhosted</a>
 
-                        </div>
-              <button class="btn info"><i class="fab fa-free-code-camp fa-film"></i></button>
-             
-            </div>
-            <div class="sucdown">
-<div class="movcon">
-                  <a href="https://azm.to/" target="_blank">AZMovies</a>
-                  <a href="https://soundcloud.com/" target="_blank">soundcloud</a>
-                  <a href="https://open.spotify.com/browse/featured" target="_blank">spotify</a>
-                  <a href="https://gaana.com/" target="_blank">gaana</a>
-                  <a href="https://www.youtube.com/" target="_blank">youtube</a>
-                  <a href="https://www.jiosaavn.com/" target="_blank">jiosaavn</a>
-                  <a href="https://www.netflix.com/in/" target="_blank">netflix</a>
-                  <a href="https://www.youtube.com/" target="_blank">youtube</a>
-                  <a href="https://mixer.com/" target="_blank">Mixer</a>
-                  <a href="https://streamsquid.com/#/browse/overview" target="_blank">streamSquid</a>
-                  <a href="https://www.rulu.co/" target="_blank">rulu</a>
-                  <a href="https://ihavenotv.com/" target="_blank">ihavenotv</a>
-                </div>
-              <button class="btn warning"><i class='fas fa-poll fa-film'></i></button>
-              </div>
-<div class="sucdown">
-<div class="movcon">
-                  <a href="https://www.reddit.com/" target="_blank">reddit</a>
-                  <a href="https://www.apnews.com/" target="_blank">apnews</a>
-                  <a href="https://www.bbc.com/" target="_blank">bbc</a>
-                  <a href="https://techmeme.com/" target="_blank">techmeme</a>
-                  <a href="https://hackernoon.com/" target="_blank">hackernoon</a>
-                  <a href="https://arstechnica.com/" target="_blank">arstechnica</a>
-                  <a href="https://news.ycombinator.com/" target="_blank">NewsHacker</a>
-                  <a href="https://gbhackers.com/" target="_blank">gbhackers</a>
-                  <a href="http://www.freebookspot.es/" target="_blank">freebookspot</a>
-                  <a href="http://audiobookbay.nl/" target="_blank">audiobookbay</a>
-                   <a href="https://www.kitploit.com/" target="_blank">kitploit</a>
-                  <a href="http://www.coolguid.es/" target="_blank">coolguid</a>
-                  <a href="https://darknetlive.com/" target="_blank">darknetlive</a>
-                    <a href="https://torrentfreak.com/" target="_blank">torrentfreak</a>
-                   <a href="https://cointelegraph.com/" target="_blank">cointelegraph</a>
-                </div>
-              <button class="btn danger"><i class="fas fa-newspaper fa-film"></i></button>
-</div>
-<div class="sucdown">
-<div class="movcon">
-                  <a href="https://www.amazon.com/" target="_blank">amazon</a>
-                  <a href="https://www.paypal.com/" target="_blank">paypal</a>
-                  <a href="https://www.flipkart.com/" target="_blank">flipkart</a>
-                  <a href="https://www.blogger.com/about/?r=1-null_user" target="_blank">blogger</a>
-                  <a href="https://gmail.com" target="_blank">gmail</a>
-                  <a href="https://www.speedtest.net/" target="_blank">speedtest</a>
-                  <a href="https://www.virustotal.com/gui/home/upload" target="_blank">virustotal</a>
-                  <a href="https://www.google.com/drive/" target="_blank">drive</a>
-                  <a href="https://www.docdroid.net/" target="_blank">docdroid</a>
-                  <a href="https://www.draw.io/" target="_blank">draw</a>
-                  <a href="https://www.photopea.com/" target="_blank">photoshop</a>
-                  <a href="http://www.blackhost.xyz/" target="_blank">blackhost</a>
-                  <a href="https://www.iloveimg.com/" target="_blank">iloveimg</a>
-                  <a href="https://fileroom.io/about" target="_blank">fileroom</a>
-                  <a href="https://spee.ch/" target="_blank">speech</a>
-                </div>
-              <button class="btn default"><i class="fa fa-cloud "></i></button>
-              </div>
-              <div class="sucdown">
-                <div class="movcon">
-                  <a href="https://www.linkcollider.com/page/register?r=310389&aff=1" target="_blank">linkcollider</a>
-                  <a href="https://smallseotools.com/" target="_blank">smallseotools</a>
-                  <a href="https://www.alexa.com/" target="_blank">alexa</a>
-                  <a href="https://search.google.com/search-console/about" target="_blank">search-console</a>
-                  <a href="https://www.bing.com/toolbox/webmaster" target="_blank">Bing-webmaster</a>
-                  <a href="https://www.entireweb.com/free_submission/" target="_blank">entireweb</a>
-                  <a href="http://ww1.prcheck.net/" target="_blank">prcheck</a>
-                  <a href="https://checkpagerank.net/" target="_blank">checkpagerank</a>
-                  <a href="https://keywordshitter.com/" target="_blank">keywordshitter</a>
-                  <a href="https://keywordseverywhere.com/" target="_blank">keywordseverywhere</a>
-                  <a href="https://www.xml-sitemaps.com/" target="_blank">xml-sitemaps</a>
-                  <a href="http://www.backlinks.com/?aff=141436" target="_blank">backlinks</a>
-                  <a href="https://www.copyscape.com/" target="_blank">copyscape</a>
-                  <a href="https://ahrefs.com/backlink-checker" target="_blank">backlink-checker</a>
-                  <a href="https://search.google.com/test/mobile-friendly" target="_blank">mobile-friendly</a>
-                  <a href="https://ahrefs.com/" target="_blank">Ahrefs</a>
-                  <a href="https://www.semrush.com/" target="_blank">SEMRush</a>
-                  <a href="https://kwfinder.com/" target="_blank">kwfinder</a>
-                  <a href="https://moz.com/products/pro/seo-toolbar" target="_blank">Moz</a>
-                  <a href="https://neilpatel.com/ubersuggest/" target="_blank">Ubersuggest</a>
-                  <a href="https://answerthepublic.com/" target="_blank">answerthepublic</a>
-                  <a href="https://www.spyfu.com/" target="_blank">spyfu</a>
-                  <a href="https://www.woorank.com/" target="_blank">woorank</a>
-                  <a href="https://majestic.com/" target="_blank">Majestic</a>
-                  <a href="https://trends.google.com/trends/?geo=US" target="_blank">google trends</a>
-                  <a href="http://www.siteliner.com/" target="_blank">siteliner</a>
-                  <a href="https://seotoollab.com/nws/" target="_blank">seotoollab</a>
-                  <a href="http://www.seowebpageanalyzer.com/" target="_blank">seoweb-analyzer</a>
-                  <a href="https://www.responsivedesignchecker.com/" target="_blank">responsive-checker</a>
-                  <a href="https://www.serprobot.com" target="_blank">serprobot</a>
-                  <a href="https://www.similarweb.com/" target="_blank">similarweb</a>
-                  <a href="https://hallanalysis.com/" target="_blank">hallanalysis</a>
-                </div>
-              <button class="btn seo ">seo</button>
-         </div>
-<div><span><p class="faq-class-p">Some popular <a href="qutio html.html" target="_blank" class="faq-class"><b class="faq-class">FAQS</b></a><b class="q-desp">?</b></p></span></div>
- 
-          <div class="btn-controller">
-         <button class="accordion">What are some free best quality Tv or Web-series downloading sites ?</button>
-         <div class="panel">
-           <p>Answer.</p>
-           <ol><a href="https://1337xto.to/" target="_blank" class="lang-color">1337x</a></ol>
-           <ol><a target="_blank" href="https://torrentz2.eu/" class="lang-color">torrentz2</a></ol>
-           <ol><a target="_blank" href="https://torrents.io/" class="lang-color">torrents.io</a></ol>
-           <ol><a target="_blank" href="https://torrentgalaxy.org/" class="lang-color">torrentgalaxy</a></ol>
-           <ol><a target="_blank" href="https://zooqle.com/" class="lang-color">zooqle</a></ol>
-           <ol><a target="_blank" href="https://eztv.io/" class="lang-color">eztv</a></ol>
-           <ol><a target="_blank" href="https://www.limetorrents.info/" class="lang-color">limetorrents</a></ol>
-           <ol><a target="_blank" href="https://www.skytorrents.lol/" class="lang-color">skytorrents</a></ol>
-           <ol><a href="https://thepiratebayz.org/" target="_blank" class="lang-color">The pirates bay</a></ol>
-           <ol><a target="_blank" href="https://fileocean.to/" class="lang-color">Fileocean</a></ol>
-           <ol><a target="_blank" href="https://glodls.to/home.php" class="lang-color">Glodls</a></ol>
-           <ol><a href="https://www.usenet-crawler.com/browse" target="_blank" class="lang-color">Usenet-crawler</a></ol>  
-           <ol><a href="https://480mkv.com/" target="_blank" class="lang-color">480mkv</a></ol>
- 
-         </div>
-         <div class="panel">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <button class="accordion">what are some best sites to download movies?</button>
-        <div class="panel">
-          <p>Answer.</p>
-          <ol><a href="https://1337xto.to/" target="_blank" class="lang-color">1337x</a></ol>
-          <ol><a target="_blank" href="https://torrentz2.eu/" class="lang-color">torrentz2</a></ol>
-          <ol><a target="_blank" href="https://torrents.io/" class="lang-color">torrents.io</a></ol>
-          <ol><a target="_blank" href="https://torrentgalaxy.org/" class="lang-color">torrentgalaxy</a></ol>
-          <ol><a target="_blank" href="https://zooqle.com/" class="lang-color">zooqle</a></ol>
-          <ol><a target="_blank" href="https://eztv.io/" class="lang-color">eztv</a></ol>
-          <ol><a target="_blank" href="https://www.limetorrents.info/" class="lang-color">limetorrents</a></ol>
-          <ol><a target="_blank" href="https://www.skytorrents.lol/" class="lang-color">skytorrents</a></ol>
-          <ol><a href="https://thepiratebayz.org/" target="_blank" class="lang-color">The pirates bay</a></ol>
-          <ol><a target="_blank" href="https://glodls.to/home.php" class="lang-color">Glodls</a></ol>
-          <ol><a href="https://www.usenet-crawler.com/browse" target="_blank" class="lang-color">Usenet-crawler</a></ol>  
-          <ol><a href="https://480mkv.com/" target="_blank" class="lang-color">480mkv</a></ol>
-         <ol><a href="https://web3spider.github.io/Web3spider-Movie-Hub/" target="_blank" class="lang-color">Web3spider Movie Hub</a></ol>
-
-        </div>
-        
-        <button class="accordion">What are some free best quality Stock photos sites ?</button>
-        <div class="panel">
-          <p>Answer.</p>
-          <ol><a href="https://unsplash.com/" target="_blank" class="lang-color">Unsplash</a></ol>
-          <ol><a target="_blank" href="https://pixabay.com/" class="lang-color">Pixabay</a></ol>
-          <ol><a target="_blank" href="https://www.pexels.com/" class="lang-color">Pexels</a></ol>
-          <ol><a target="_blank" href="https://negativespace.co/" class="lang-color">Negativespace</a></ol>
-          <ol><a target="_blank" href="https://stocksnap.io/" class="lang-color">Stocksnap</a></ol>
-          <ol><a target="_blank" href="https://burst.shopify.com/" class="lang-color">Burst.shopify</a></ol>
-          <ol><a target="_blank" href="https://freestockphotos.io/" class="lang-color">freestockphotos</a></ol>
-          <ol><a target="_blank" href="https://www.splitshire.com/" class="lang-color">Splitshire</a></ol>
-          <ol><a href="https://gratisography.com/" target="_blank" class="lang-color">Gratisography</a></ol>
-        </div>
-        
-        <button class="accordion">What are some best sites for Softwares ?</button>
-        <div class="panel">
-          <p>Answer.</p>
-          <ol><a href="https://www.piratecity.co/" target="_blank" class="lang-color">Piratecity</a></ol>
-          <ol><a target="_blank" href="https://1337xto.to/" class="lang-color">1337x</a></ol>
-          <ol><a target="_blank" href="https://crackingpatching.com/" class="lang-color">Crackingpatching</a></ol>
-          <ol><a target="_blank" href="http://cracksurl.com/" class="lang-color">Cracksurl</a></ol>
-          <ol><a target="_blank" href="https://www.usenet-crawler.com/" class="lang-color">Usenet-crawler</a></ol>
-          <ol><a target="_blank" href="https://crohasit.net/" class="lang-color">Crohasit</a></ol>
-          <ol><a target="_blank" href="https://thepiratebay.org/" class="lang-color">Thepiratebay</a></ol>
-          <ol><a target="_blank" href="https://worldsrc.org/" class="lang-color">Worldsrc</a></ol>
-          <ol><a href="https://filepursuit.com/" target="_blank" class="lang-color">Filepursuit</a></ol>
-          <ol><a href="https://www.downturk.net/" target="_blank" class="lang-color">Downturk</a></ol>
-          <ol><a target="_blank" href="https://ewora.blogspot.com/" class="lang-color">Ewora</a></ol>
-          <ol><a href="https://cmacapps.com/" target="_blank" class="lang-color">cmacapps</a></ol>
-          <ol><a href="https://www.apkmirror.com/developers/" target="_blank" class="lang-color">apkmirror</a></ol>  
-
-
-        </div>
-        <button class="accordion">What are some free best PC Games site ?</button>
-        <div class="panel">
-          <p>Answer.</p>
-          <ol><a href="https://filepursuit.com/" target="_blank" class="lang-color">Filepursuit</a></ol>
-          <ol><a target="_blank" href="https://www.elamigos-games.com/" class="lang-color">Elamigos-games</a></ol>
-          <ol><a target="_blank" href="https://1337xto.to/" class="lang-color">1337x</a></ol>
-          <ol><a target="_blank" href="https://www.usenet-crawler.com/" class="lang-color">Usenet-crawler</a></ol>
-          <ol><a target="_blank" href="https://crohasit.net/" class="lang-color">Crohasit</a></ol>
-          <ol><a target="_blank" href="https://glodls.to/home.php" class="lang-color">Glodls</a></ol>
-          <ol><a target="_blank" href="https://www.limetorrents.info/" class="lang-color">Limetorrents</a></ol>
-          <ol><a target="_blank" href="https://www.piratecity.co/" class="lang-color">Piratecity</a></ol>
-          <ol><a href="https://worldsrc.org/" target="_blank" class="lang-color">worldsrc</a></ol>   
-          <ol><a href="https://thepiratebayz.org/" target="_blank" class="lang-color">Thepiratebayz</a></ol>
-        </div>
-        
-
-        </div>
-          <div> <span><a href="qutio html.html" target="_blank" class="mo-cla">More FAQS</a></span></div>
-        <script>
-          var acc = document.getElementsByClassName("accordion");
-          var i;
-          
-          for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-              this.classList.toggle("active");
-              var panel = this.nextElementSibling;
-              if (panel.style.maxHeight){
-                panel.style.maxHeight = null;
-              } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-              } 
-            });
-          }
-          </script>
-
-           
-           
-           
-           
-         <p class="Searchnow">search now</p>  
-         <div>     
-          <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank" >
-            <p class="googlep">Search with Google</p>
-            <i class="fab fa-google"></i>
-            <input name="sitesearch" type="hidden" value="">
-            <input autocomplete="on" class="form-control search" name="q" placeholder="Search in google" required="required"  type="text">
-            <button id="google1" class="button seeo" type="submit">Search</button>
-            <p class="goside"><i class="fab fa-google"></i> Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. Google was founded in 1998 by Larry Page and Sergey Brin while they were Ph.D.<a href="https://en.wikipedia.org/wiki/Google" target="_blank">Wikipedia</a></p>
-            </form>
-          
-          
-            <form action="https://www.bing.com/search" class="searchform2" method="get" name="searchform" target="_blank" id="bing">
-              <p class="googlep">Search with Bing</p>
-              <i class="fab fa-bimobject"></i>
-              <input name="sitesearch" type="hidden" value="">
-              <input autocomplete="on" class="form-control search" name="q" placeholder="Search in bing" required="required"  type="text">
-              <button id="bing" class="button seeo" type="submit">Search</button>
-              <p class="goside"><i class="fab fa-bimobject"></i> Bing is a web search engine owned and operated by Microsoft. The service has its origins in Microsoft's previous search engines: MSN Search, Windows Live Search and later Live Search. Bing provides a variety of search services, including web, video, image and map search products. It is developed using ASP.NET.<a href="https://en.wikipedia.org/wiki/Bing_(search_engine)" target="_blank">Wikipedia</a></p>
-              </form>
-            
-              
-              <form action="https://in.yahoo.com/search" class="searchform2" method="get" name="searchform" target="_blank" >
-                <p class="googlep">Search with yahoo!</p>
-                <i class="fab fa-yahoo"></i>
-                <input name="sitesearch" type="hidden" value="">
-                <input autocomplete="on" class="form-control search" name="q" placeholder="Search in yahoo!" required="required"  type="text">
-                <button id="yahoo"class="button seeo" type="submit">Search</button>
-                <p class="goside"><i class="fab fa-yahoo"></i> Yahoo! is a web services provider headquartered in Sunnyvale, California and wholly owned by Verizon Communications through Oath Inc.. The original Yahoo! company was founded by Jerry Yang and David Filo in January 1994 and was incorporated on March 2, 1995. Yahoo was one of the pioneers of the early Internet era in the 1990s.<a  target="-blank"href="https://en.wikipedia.org/wiki/Yahoo!">Wikipedia</a></p>
-                </form>
-              
-                <form action="https://duckduckgo.com/search" class="searchform2" method="get" name="searchform" target="_blank" >
-                  <p class="googlep">Search with duckduckgo</p>
-                  <i class="fab fa-drupal"></i>                  <input name="sitesearch" type="hidden" value="">
-                  <input autocomplete="on" class="form-control search" name="q" placeholder="Search in duckduckgo" required="required"  type="text">
-                  <button id="duckduckgo"class="button seeo" type="submit">Search</button>
-                  <p class="goside"><i class="fab fa-drupal"></i> DuckDuckGo is an Internet search engine that emphasizes protecting searchers' privacy and avoiding the filter bubble of personalized search results.<a href="https://en.wikipedia.org/wiki/DuckDuckGo" target="_blank">Wikipedia</a></p>
-                  </form>
-              
-                </div>
-<footer>
-  <div class="footer-div">
-      <p class="policy">Our Privecy policy</p>
-      <p><b class="center-policy2">If you are using our services daily it means you trusting on us, so we shell keep your details secure</b><br><b class="center-policy3">Web3spider is a none-profit site to support us, you can donate.(to donate go to home manu bar) all data is secure</b><br><b class="center-policy5">ALL RIGHTS ARE RESERVED</b><br><b class="center-policy6">Web3spider-2019</b></p>
-<a href="founder.html" target="_blanck" class="a-know">Know More...</a>
-<icons>
-  <a href="https://twitter.com/?lang=en-in" target="_blank" class="social"><i class="fab fa-twitter"></i></a>
-  <a href="https://www.facebook.com/" target="_blank" class="social"><i class="fab fa-facebook"></i></a>
-  <a href="https://developers.google.com/+/web/" target="_blank" class="social"><i class="fab fa-google fa-google2"></i></a>
-  <a href="https://www.youtube.com/?gl=IN" target="_blank" class="social"><i class="fab fa-youtube"></i></a>
-  <a href="" target="_blank" class="social"><i class="fab fa-instagram"></i></a>
-  </icons>
     </div>
+  </div>
+  <div class="dropdown1">
+    <button class="dropbtn1 btn btn-success"><i class="fab fa-autoprefixer awso-size"></i></button>
+    <div class="dropdown-content1 btn-success scrollable">
+      <h5 class="dropdown-header text-white"> Entertainment </h5>
+      <a href="https://azm.to/" target="_blank">AZMovies</a>
+      <a href="https://soundcloud.com/" target="_blank">soundcloud</a>
+      <a href="https://open.spotify.com/browse/featured" target="_blank">spotify</a>
+      <a href="https://gaana.com/" target="_blank">gaana</a>
+      <a href="https://www.youtube.com/" target="_blank">youtube</a>
+      <a href="https://www.jiosaavn.com/" target="_blank">jiosaavn</a>
+      <a href="https://www.netflix.com/in/" target="_blank">netflix</a>
+      <a href="https://www.youtube.com/" target="_blank">youtube</a>
+      <a href="https://mixer.com/" target="_blank">Mixer</a>
+      <a href="https://streamsquid.com/#/browse/overview" target="_blank">streamSquid</a>
+      <a href="https://www.rulu.co/" target="_blank">rulu</a>
+      <a href="https://ihavenotv.com/" target="_blank">ihavenotv</a>
+    </div>
+  </div>
+  <div class="dropdown1">
+    <button class="dropbtn1 btn btn-info"><i class="fab fa-servicestack awso-size"></i></button>
+    <div class="dropdown-content1 btn-info scrollable">
+      <h5 class="dropdown-header text-white"> SEO </h5>
+      <a href="https://www.linkcollider.com/page/register?r=310389&aff=1" target="_blank">linkcollider</a>
+      <a href="https://smallseotools.com/" target="_blank">smallseotools</a>
+      <a href="https://www.alexa.com/" target="_blank">alexa</a>
+      <a href="https://search.google.com/search-console/about" target="_blank">search-console</a>
+      <a href="https://www.bing.com/toolbox/webmaster" target="_blank">Bing-webmaster</a>
+      <a href="https://www.entireweb.com/free_submission/" target="_blank">entireweb</a>
+      <a href="http://ww1.prcheck.net/" target="_blank">prcheck</a>
+      <a href="https://checkpagerank.net/" target="_blank">checkpagerank</a>
+      <a href="https://keywordshitter.com/" target="_blank">keywordshitter</a>
+      <a href="https://keywordseverywhere.com/" target="_blank">keywordseverywhere</a>
+      <a href="https://www.xml-sitemaps.com/" target="_blank">xml-sitemaps</a>
+      <a href="http://www.backlinks.com/?aff=141436" target="_blank">backlinks</a>
+      <a href="https://www.copyscape.com/" target="_blank">copyscape</a>
+      <a href="https://ahrefs.com/backlink-checker" target="_blank">backlink-checker</a>
+      <a href="https://search.google.com/test/mobile-friendly" target="_blank">mobile-friendly</a>
+      <a href="https://ahrefs.com/" target="_blank">Ahrefs</a>
+      <a href="https://www.semrush.com/" target="_blank">SEMRush</a>
+      <a href="https://kwfinder.com/" target="_blank">kwfinder</a>
+      <a href="https://moz.com/products/pro/seo-toolbar" target="_blank">Moz</a>
+      <a href="https://neilpatel.com/ubersuggest/" target="_blank">Ubersuggest</a>
+      <a href="https://answerthepublic.com/" target="_blank">answerthepublic</a>
+      <a href="https://www.spyfu.com/" target="_blank">spyfu</a>
+      <a href="https://www.woorank.com/" target="_blank">woorank</a>
+      <a href="https://majestic.com/" target="_blank">Majestic</a>
+      <a href="https://trends.google.com/trends/?geo=US" target="_blank">google trends</a>
+      <a href="http://www.siteliner.com/" target="_blank">siteliner</a>
+      <a href="https://seotoollab.com/nws/" target="_blank">seotoollab</a>
+      <a href="http://www.seowebpageanalyzer.com/" target="_blank">seoweb-analyzer</a>
+      <a href="https://www.responsivedesignchecker.com/" target="_blank">responsive-checker</a>
+      <a href="https://www.serprobot.com" target="_blank">serprobot</a>
+      <a href="https://www.similarweb.com/" target="_blank">similarweb</a>
+      <a href="https://hallanalysis.com/" target="_blank">hallanalysis</a>
 
+    </div>
+  </div>
+  <div class="dropdown1">
+    <button class="dropbtn1 btn btn-warning"><i class="fas fa-film awso-size"></i></button>
+    <div class="dropdown-content1 btn-warning scrollable">
+      <h5 class="dropdown-header text-white"> Main </h5>
+      <a href="https://www.amazon.com/" target="_blank">amazon</a>
+      <a href="https://www.paypal.com/" target="_blank">paypal</a>
+      <a href="https://www.flipkart.com/" target="_blank">flipkart</a>
+      <a href="https://www.blogger.com/about/?r=1-null_user" target="_blank">blogger</a>
+      <a href="https://gmail.com" target="_blank">gmail</a>
+      <a href="https://www.speedtest.net/" target="_blank">speedtest</a>
+      <a href="https://www.virustotal.com/gui/home/upload" target="_blank">virustotal</a>
+      <a href="https://www.google.com/drive/" target="_blank">drive</a>
+      <a href="https://www.docdroid.net/" target="_blank">docdroid</a>
+      <a href="https://www.draw.io/" target="_blank">draw</a>
+      <a href="https://www.photopea.com/" target="_blank">photoshop</a>
+      <a href="http://www.blackhost.xyz/" target="_blank">blackhost</a>
+      <a href="https://www.iloveimg.com/" target="_blank">iloveimg</a>
+      <a href="https://fileroom.io/about" target="_blank">fileroom</a>
+    </div>
+  </div>
+  <div class="dropdown1">
+    <button class="dropbtn1 btn btn-danger"><i class="fab fa-slideshare awso-size"></i></button>
+    <div class="dropdown-content1 btn-danger scrollable radiato">
+      <h5 class="dropdown-header text-white"> Social </h5>
+      <a href="https://www.reddit.com/" target="_blank">reddit</a>
+      <a href="https://www.apnews.com/" target="_blank">apnews</a>
+      <a href="https://www.bbc.com/" target="_blank">bbc</a>
+      <a href="https://techmeme.com/" target="_blank">techmeme</a>
+      <a href="https://hackernoon.com/" target="_blank">hackernoon</a>
+      <a href="https://arstechnica.com/" target="_blank">arstechnica</a>
+      <a href="https://news.ycombinator.com/" target="_blank">NewsHacker</a>
+      <a href="https://gbhackers.com/" target="_blank">gbhackers</a>
+      <a href="http://www.freebookspot.es/" target="_blank">freebookspot</a>
+      <a href="http://audiobookbay.nl/" target="_blank">audiobookbay</a>
+       <a href="https://www.kitploit.com/" target="_blank">kitploit</a>
+      <a href="http://www.coolguid.es/" target="_blank">coolguid</a>
+      <a href="https://darknetlive.com/" target="_blank">darknetlive</a>
+        <a href="https://torrentfreak.com/" target="_blank">torrentfreak</a>
+       <a href="https://cointelegraph.com/" target="_blank">cointelegraph</a>
+    </div>
+  </div>
+     
+</div>
+
+
+
+</downs>
+<footer class="footer101">
+
+  <p>© 2020 Web3spider</p>
 </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <script>
+  
+  
+  </script>
 </body>
 </html>
