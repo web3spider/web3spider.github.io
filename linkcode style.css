@@ -13,7 +13,7 @@ body {
 /* width */
 ::-webkit-scrollbar {
   border-radius: 10px;
-  width: 10px;
+  width: 5px;
 }
 
 /* Track */
@@ -104,7 +104,6 @@ body {
   left: 0;
   bottom: 0%;
   width: 100%;
-  background-color: rgb(104, 103, 103);
   color: white;
   text-align: center;
   
@@ -203,14 +202,20 @@ body {
     left: 0;
     top: 110%;
     width: 100%;
-    background-color: rgb(104, 103, 103);
     color: white;
     text-align: center;
     
   }
 
 }
-.panci{ position: absolute;
-bottom: 45px;
+.panci{ position: fixed;
+bottom: 30px;
 right: 10px;
-font-
+
+} 
+
+.left-side-s{
+  float: right;
+  font-size: 10px;
+  padding-right: 5px;
+}
