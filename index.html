@@ -48,10 +48,29 @@
 </head>
 <body>
     <header>
-
+ <div class="left-side-s">
+        <p id="demoDayName" class="font-class"> </p>
+         <p id="demowidth"></p>
+         <script>
+           document.getElementById("demowidth").innerHTML = screen.width +" X " + screen.height;
+   
+     var d = new Date();
+     var weekday = new Array(7);
+     weekday[0] = "Sunday";
+     weekday[1] = "Monday";
+     weekday[2] = "Tuesday";
+     weekday[3] = "Wednesday";
+     weekday[4] = "Thursday";
+     weekday[5] = "Friday";
+     weekday[6] = "Saturday";
+   
+     var n = weekday[d.getDay()];
+     document.getElementById("demoDayName").innerHTML =n;
+   </script>
+     </div>
     <img class="img-responsive img-fluid mx-auto d-block" src="logo.svg" alt="web3spider-logo v.2.1.1.2" width="200" height="150" >
 
-    <button type="button" class="btn more-menu" title="More-Menu" onclick="openNav()"><i class="fas fa-bars fabars"></i></button>
+    <button type="button" class="btn more-menu" title="More-Menu" onclick="openNav()"><img src="https://img.icons8.com/android/24/000000/menu.png"/></button>
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="https://dyuproject.com/bookmarks/">Bookmarks</a>
@@ -67,49 +86,26 @@
     function closeNav() {
       document.getElementById("mySidenav").style.width = "0";
     }
-    </script>
-    <button type="button" class="btn float-right info-bar btn-info btn-sm" data-toggle="collapse" data-target="#demo"><i class="fas fa-info-circle "></i></button>
-    <div id="demo" class="collapse float-right">
-     <small> <p id="demoDayName" class="font-class"></p>
-      <p id="demowidth"></p>
-    </small>
-      <script>
-        document.getElementById("demowidth").innerHTML = screen.width +" X " + screen.height;
-
-  var d = new Date();
-  var weekday = new Array(7);
-  weekday[0] = "Sunday";
-  weekday[1] = "Monday";
-  weekday[2] = "Tuesday";
-  weekday[3] = "Wednesday";
-  weekday[4] = "Thursday";
-  weekday[5] = "Friday";
-  weekday[6] = "Saturday";
-
-  var n = weekday[d.getDay()];
-  document.getElementById("demoDayName").innerHTML =n;
-</script>
-    </div>  
-  
+    </script>  
   </header>
     <div class="container mt-3">
       <br>
       <!-- Nav tabs -->
       <ul class="nav nav-tabs" id="myTab">
         <li class="nav-item">
-          <a class="nav-link active" data-toggle="tab" href="#google"><i class="fab fa-google"></i></a>
+          <a class="nav-link active" data-toggle="tab" href="#google"><img src="https://img.icons8.com/plasticine/100/000000/google-logo.png" width="30"/></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Bing">Bing</a>
+          <a class="nav-link" data-toggle="tab" href="#Bing"><img src="https://img.icons8.com/color/96/000000/bing.png" width="30"/></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Duckduckgo">Duckduckgo</a>
+          <a class="nav-link" data-toggle="tab" href="#Duckduckgo"><img src="https://img.icons8.com/color/96/000000/duckduckgo--v1.png" width="30"/></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Yandex">Yandex</a>
+          <a class="nav-link" data-toggle="tab" href="#Yandex"><img src="https://img.icons8.com/windows/96/000000/yandex-international.png" width="30"/></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#x">1337x</a>
+          <a class="nav-link" data-toggle="tab" href="#x"><img src="https://img.icons8.com/nolan/96/unsplash.png" width="30"/></a>
         </li>
       </ul>
     
@@ -156,11 +152,11 @@
           </form>
         </div>
         <div id="x" class="container tab-pane fade"><br>
-          <form action="https://1337x.to/home/" method="get" target="_blank" >
-            <p>Search with 1337x</p>
+          <form action="https://unsplash.com/" method="get" target="_blank" >
+            <p>Search with Unsplash</p>
             <div class="form-group">
             <input name="Web3spider-search" class="form-control" type="hidden" value="">
-            <input autocomplete="off" class="form-control" name="q" placeholder="Search in 1337x" required="required"  type="text">
+            <input autocomplete="off" class="form-control" name="q" placeholder="Search in Unsplash" required="required"  type="text">
           </div>
             <button type="submit" class="btn btn-primary">Search</button>
           </form>
@@ -376,8 +372,12 @@
 
 
 </downs>
-   <a href="https://web3spider.github.io/Web3spider%20Chat%20Room.html" type="button" class="btn float-right rounded-circle panci" id="ThemeBtn"><img src="https://img.icons8.com/cute-clipart/64/000000/chat.png" width="80%"/></a>
-<footer class="footer101">
+<pencile>
+  <a href="https://web3spider.github.io/Web3spider%20Chat%20Room.html" class=" float-right panci"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+    width="50" height="50"
+    viewBox="0 0 172 172"
+    style=" fill:#000000;"><defs><linearGradient x1="71.21875" y1="44.34375" x2="71.21875" y2="70.51194" gradientUnits="userSpaceOnUse" id="color-1_KyjQs4PcdH76_gr1"><stop offset="0" stop-color="#70dfff"></stop><stop offset="1" stop-color="#70afff"></stop></linearGradient><linearGradient x1="86" y1="25.67369" x2="86" y2="146.63537" gradientUnits="userSpaceOnUse" id="color-2_KyjQs4PcdH76_gr2"><stop offset="0" stop-color="#00c6ff"></stop><stop offset="1" stop-color="#0072ff"></stop></linearGradient><linearGradient x1="86" y1="25.67369" x2="86" y2="146.63537" gradientUnits="userSpaceOnUse" id="color-3_KyjQs4PcdH76_gr3"><stop offset="0" stop-color="#00c6ff"></stop><stop offset="1" stop-color="#0072ff"></stop></linearGradient><linearGradient x1="76.59375" y1="25.67369" x2="76.59375" y2="146.63537" gradientUnits="userSpaceOnUse" id="color-4_KyjQs4PcdH76_gr4"><stop offset="0" stop-color="#00c6ff"></stop><stop offset="1" stop-color="#0072ff"></stop></linearGradient><linearGradient x1="86" y1="25.67369" x2="86" y2="146.63537" gradientUnits="userSpaceOnUse" id="color-5_KyjQs4PcdH76_gr5"><stop offset="0" stop-color="#00c6ff"></stop><stop offset="1" stop-color="#0072ff"></stop></linearGradient></defs><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g><path d="M88.236,67.1875h-34.0345c-1.73344,0 -3.139,-1.40556 -3.139,-3.139v-15.22469c0,-1.73075 1.40556,-3.13631 3.139,-3.13631h34.03719c1.73075,0 3.13631,1.40556 3.13631,3.139v15.22469c0,1.73075 -1.40556,3.13631 -3.139,3.13631z" fill="url(#color-1_KyjQs4PcdH76_gr1)"></path><path d="M131.6875,24.1875h-91.375c-7.41212,0 -13.4375,6.02538 -13.4375,13.42675v75.25c0,7.41212 6.02538,13.44825 13.4375,13.44825h40.3125c1.48081,0 2.6875,1.19594 2.6875,2.67675v11.02412c0,3.04494 1.763,5.74319 4.61981,7.03319c1.13412,0.51331 2.31931,0.77669 3.49644,0.77669c1.93231,0 3.83237,-0.69338 5.36425,-2.02638l21.69887,-18.834c0.49181,-0.41925 1.12337,-0.65037 1.763,-0.65037h11.43262c7.41213,0 13.4375,-6.03613 13.4375,-13.44825v-75.25c0,-7.40138 -6.02537,-13.42675 -13.4375,-13.42675zM139.75,112.86425c0,4.4505 -3.62275,8.07325 -8.0625,8.07325h-11.43262c-1.94306,0 -3.82162,0.70413 -5.29169,1.97263l-21.69887,18.834c-1.02931,0.8815 -2.279,0.78744 -3.10675,0.4085c-0.44075,-0.19887 -1.47006,-0.80625 -1.47006,-2.13925v-11.02412c0,-4.43975 -3.62275,-8.05175 -8.0625,-8.05175h-40.3125c-4.43975,0 -8.0625,-3.62275 -8.0625,-8.07325v-75.25c0,-4.43975 3.62275,-8.05175 8.0625,-8.05175h91.375c4.43975,0 8.0625,3.612 8.0625,8.05175z" fill="url(#color-2_KyjQs4PcdH76_gr2)"></path><rect x="19" y="29" transform="scale(2.6875,2.6875)" width="26" height="2" fill="url(#color-3_KyjQs4PcdH76_gr3)"></rect><rect x="19" y="33" transform="scale(2.6875,2.6875)" width="19" height="2" fill="url(#color-4_KyjQs4PcdH76_gr4)"></rect><rect x="19" y="37" transform="scale(2.6875,2.6875)" width="26" height="2" fill="url(#color-5_KyjQs4PcdH76_gr5)"></rect></g></g></svg></a>
+</pencile><footer class="footer101">
 
   <p>© 2020 Web3spider</p>
 </footer>
